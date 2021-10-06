@@ -1,0 +1,63 @@
+public class pateint 
+{
+int pat_id;
+varchar name;
+int age;
+vachar sex;
+varchar e_mail;
+int phone_number;
+varchar blood_grp;
+
+public pateint_login()
+{
+ private varchar password;
+}
+
+}
+public class diseases
+{
+int dis_id;
+varchar dis_name;
+}
+
+public class doctor
+{
+int doc_id;
+varchar dr_name;
+int dr_age
+varchar dr_e_mail;
+int dr_phone_number;
+varchar specializaton;
+{
+public doctor_login()
+{
+ private varchar dr_password;
+}
+}
+
+public class slot : patient,doctor ,diseases
+{
+datetime datee;
+datetime start_time;
+datetime end_time;
+int slot_id;
+public slotbooking()
+{
+}
+}
+
+public class patient_feedback : patient,doctor,slot
+{
+int feedback_id;
+varchar feedback;
+public feeback_taken()
+{}
+}
+
+public class prescription : slot
+{
+int slot_id;
+varchar prescription;
+public prescripton_given()
+{}
+}
